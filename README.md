@@ -5,7 +5,7 @@ This repository contains the assessment project for the **Applied Statistics** m
 
 You can explore more on writing in Markdown in GitHub's [Basic Writing and Formatting Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) documentation.  
 
-![Applied Statistics Image](https://yourimagepath.com/A_2D_digital_graphic_illustrates_applied_statistic.png)
+![Applied Statistics Image](<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/7f9f4aac-a61a-498a-9cb4-f137286ca64f" />)
 
 
 ## Purpose of This Assessment
