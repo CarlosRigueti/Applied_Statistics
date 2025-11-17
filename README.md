@@ -5,6 +5,9 @@ This repository contains the assessment project for the **Applied Statistics** m
 
 You can explore more on writing in Markdown in GitHub's [Basic Writing and Formatting Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) documentation.  
 
+![Applied Statistics Image](https://yourimagepath.com/A_2D_digital_graphic_illustrates_applied_statistic.png)
+
+
 ## Purpose of This Assessment
 
 The goal of this assessment is to test your understanding of applied statistics by engaging in hands-on analysis and simulations. Key areas of focus include probability theory, hypothesis testing, understanding sampling distributions, and the application of statistical methods like t-tests and ANOVA.  
