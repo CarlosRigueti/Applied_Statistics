@@ -44,3 +44,10 @@ Generate multiple independent sample sets with varying means.
 1. [About READMEs - GitHub](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)  
 2. [Assessment Instructions: Winter 25/26](https://github.com/ianmcloughlin/applied-statistics/blob/main/assessment/assessment.md)  
 3. [Basic Writing and Formatting Syntax on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+
+Author
+Carlos Rigueti: I am currently studying Higher Diploma in Science Data Analytics at Atlantic Technological University. For more information or questions, please contact me on GitHub or add me on LinkedIn. Link: https://www.linkedin.com/in/carlos-rigueti-b6323926/
+
+
+
