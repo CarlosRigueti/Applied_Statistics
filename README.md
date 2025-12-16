@@ -20,34 +20,41 @@ This repository serves as a demonstration of the core skills developed during th
 
 ## Assessment Breakdown
 
-### Problem 1: Extending the Lady Tasting Tea  
+### Problem 1: Extending the Lady Tasting Tea:
+
 This problem extends the classic **Lady Tasting Tea** experiment.  
 - **Task:** Simulate various outcomes to estimate probabilities and interpret these results using hypothesis testing.  
 - **Objective:** Understand how experimental design affects the likelihood of extreme outcomes occurring by chance.
 
-### Problem 2: Normal Distribution  
+### Problem 2: Normal Distribution:
+
 Generate large sample sets from a **standard normal distribution**.  
 - **Task:** Compare sample and population standard deviations.  
 - **Objective:** Investigate the effect of sample size on the variability of data and the estimation of standard deviation.
 
 ### Problem 3: t-Tests  
+
 Simulate independent sample sets with varying mean differences.  
 - **Task:** Conduct **t-tests** to test for statistical significance.  
 - **Objective:** Explore how the rate of Type II errors changes as the true difference between populations increases.
 
 ### Problem 4: ANOVA  
+
 Generate multiple independent sample sets with varying means.  
 - **Task:** Perform a **one-way ANOVA** and pairwise **t-tests**.  
 - **Objective:** Understand why **ANOVA** is preferred when comparing more than two groups, especially in controlling error rates.
 
-## References  
+## References:
+
 1. [About READMEs - GitHub](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)  
 2. [Assessment Instructions: Winter 25/26](https://github.com/ianmcloughlin/applied-statistics/blob/main/assessment/assessment.md)  
 3. [Basic Writing and Formatting Syntax on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
+---
+
 
 Author
-Carlos Rigueti: I am currently studying Higher Diploma in Science Data Analytics at Atlantic Technological University. For more information or questions, please contact me on GitHub or add me on LinkedIn. Link: https://www.linkedin.com/in/carlos-rigueti-b6323926/
+Carlos Rigueti: I am currently studying Higher Diploma in Science Data Analytics at Atlantic Technological University. For more information or questions, please contact me on GitHub or add me on [LinkedIn] (https://www.linkedin.com/in/carlos-rigueti-b6323926/)
 
 
 
