@@ -44,11 +44,28 @@ Generate multiple independent sample sets with varying means.
 - **Task:** Perform a **one-way ANOVA** and pairwise **t-tests**.  
 - **Objective:** Understand why **ANOVA** is preferred when comparing more than two groups, especially in controlling error rates.
 
-## References:
+## **References**:
 
-1. [About READMEs - GitHub](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)  
-2. [Assessment Instructions: Winter 25/26](https://github.com/ianmcloughlin/applied-statistics/blob/main/assessment/assessment.md)  
-3. [Basic Writing and Formatting Syntax on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+1. **NumPy Documentation**  
+   NumPy is the primary library used for numerical operations, simulations, and generating random samples from normal distributions.  
+   - *Documentation*: [https://numpy.org/doc/stable/reference/index.html](https://numpy.org/doc/stable/reference/index.html)
+
+2. **SciPy Documentation**  
+   SciPy is used for statistical tests, such as independent t-tests and ANOVA. It also provides functions for calculating p-values, t-statistics, and other statistical metrics.  
+   - *Documentation*: [https://docs.scipy.org/doc/scipy/reference/stats.html](https://docs.scipy.org/doc/scipy/reference/stats.html)
+
+3. **Matplotlib Documentation**  
+   Matplotlib is used for visualizing results, such as plotting histograms of standard deviations and generating other charts to illustrate comparisons between samples.  
+   - *Documentation*: [https://matplotlib.org/stable/contents.html](https://matplotlib.org/stable/contents.html)
+
+4. **Introduction to Statistical Learning with Applications in R (ISLR)**  
+   This textbook provides a comprehensive introduction to statistical learning, which includes concepts used throughout the assignment, such as hypothesis testing, p-values, and ANOVA. Although focused on R, the concepts are directly applicable to Python.  
+   - *Textbook*: [Introduction to Statistical Learning](https://www.statlearning.com/)
+
+5. **Statistics for Business and Economics**  
+   This resource provides a detailed explanation of statistical concepts used in the assignment, including hypothesis testing, ANOVA, and t-tests. It is an essential text for understanding how to apply these methods in real-world data analysis.  
+   - *Textbook*: Anderson, D. R., Sweeney, D. J., & Williams, T. A. (2014). *Statistics for Business and Economics*. 12th Edition. Cengage Learning.
+
 
 ---
 
