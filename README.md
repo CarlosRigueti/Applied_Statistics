@@ -1,79 +1,199 @@
 # Higher Diploma in Science - Data Analytics  
 ## Applied Statistics - Assessment  
 
-This repository contains the assessment project for the **Applied Statistics** module in the **Higher Diploma in Data Analytics** program. The contents of this README are designed following [GitHub's documentation for READMEs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes) to ensure clarity and consistency. This project showcases the application of statistical concepts through data analysis and visualization using tools like Python and Jupyter Notebook.  
+# Statistical Simulation and Hypothesis Testing  
+**Final Project – Data Analytics**
 
-You can explore more on writing in Markdown in GitHub's [Basic Writing and Formatting Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) documentation.  
+## Overview
 
-![Applied Statistics Image](https://github.com/user-attachments/assets/4baac4f5-a455-4deb-9dcb-9eabbbb8e200)
+This project presents a set of simulation-based statistical analyses focusing on probability,
+sampling distributions, and hypothesis testing. Using Monte Carlo simulations, the project
+explores classical inferential statistics concepts and compares theoretical expectations with
+empirical results obtained through repeated random sampling.
 
-
-## Purpose of This Assessment
-
-The goal of this assessment is to test your understanding of applied statistics by engaging in hands-on analysis and simulations. Key areas of focus include probability theory, hypothesis testing, understanding sampling distributions, and the application of statistical methods like t-tests and ANOVA.  
-
-This project provides you with the opportunity to demonstrate the skills you have developed throughout the course, particularly in the areas of **data analysis**, **programming**, and **data visualization**.  
-
-## How to Use This Assessment
-
-This repository serves as a demonstration of the core skills developed during the course. You will be working with data analysis, programming, and data visualization, all implemented using **Jupyter Notebook** and **Python**.  
-
-## Assessment Breakdown
-
-### Problem 1: Extending the Lady Tasting Tea:
-
-This problem extends the classic **Lady Tasting Tea** experiment.  
-- **Task:** Simulate various outcomes to estimate probabilities and interpret these results using hypothesis testing.  
-- **Objective:** Understand how experimental design affects the likelihood of extreme outcomes occurring by chance.
-
-### Problem 2: Normal Distribution:
-
-Generate large sample sets from a **standard normal distribution**.  
-- **Task:** Compare sample and population standard deviations.  
-- **Objective:** Investigate the effect of sample size on the variability of data and the estimation of standard deviation.
-
-### Problem 3: t-Tests  
-
-Simulate independent sample sets with varying mean differences.  
-- **Task:** Conduct **t-tests** to test for statistical significance.  
-- **Objective:** Explore how the rate of Type II errors changes as the true difference between populations increases.
-
-### Problem 4: ANOVA  
-
-Generate multiple independent sample sets with varying means.  
-- **Task:** Perform a **one-way ANOVA** and pairwise **t-tests**.  
-- **Objective:** Understand why **ANOVA** is preferred when comparing more than two groups, especially in controlling error rates.
-
-## **References**:
-
-1. **NumPy Documentation**  
-   NumPy is the primary library used for numerical operations, simulations, and generating random samples from normal distributions.  
-   - *Documentation*: [https://numpy.org/doc/stable/reference/index.html](https://numpy.org/doc/stable/reference/index.html)
-
-2. **SciPy Documentation**  
-   SciPy is used for statistical tests, such as independent t-tests and ANOVA. It also provides functions for calculating p-values, t-statistics, and other statistical metrics.  
-   - *Documentation*: [https://docs.scipy.org/doc/scipy/reference/stats.html](https://docs.scipy.org/doc/scipy/reference/stats.html)
-
-3. **Matplotlib Documentation**  
-   Matplotlib is used for visualizing results, such as plotting histograms of standard deviations and generating other charts to illustrate comparisons between samples.  
-   - *Documentation*: [https://matplotlib.org/stable/contents.html](https://matplotlib.org/stable/contents.html)
-
-4. **Introduction to Statistical Learning with Applications in R (ISLR)**  
-   This textbook provides a comprehensive introduction to statistical learning, which includes concepts used throughout the assignment, such as hypothesis testing, p-values, and ANOVA. Although focused on R, the concepts are directly applicable to Python.  
-   - *Textbook*: [Introduction to Statistical Learning](https://www.statlearning.com/)
-
-5. **Statistics for Business and Economics**  
-   This resource provides a detailed explanation of statistical concepts used in the assignment, including hypothesis testing, ANOVA, and t-tests. It is an essential text for understanding how to apply these methods in real-world data analysis.  
-   - *Textbook*: Anderson, D. R., Sweeney, D. J., & Williams, T. A. (2014). *Statistics for Business and Economics*. 12th Edition. Cengage Learning.
-
+The work emphasizes both **computational implementation** and **statistical interpretation**,
+highlighting how simulation can be used to better understand uncertainty, variability,
+and decision-making in statistical inference.
 
 ---
 
+## Project Motivation
+
+Many results in statistics are derived theoretically under ideal assumptions.
+This project aims to complement theory with simulation, allowing key statistical properties
+to be observed empirically. By repeatedly simulating experiments and hypothesis tests,
+the project demonstrates how probabilities, error rates, and test performance behave in practice.
+
+---
+
+## Methodology
+
+All analyses are conducted using Monte Carlo simulation techniques.
+
+- Random samples are generated from specified probability distributions.
+- Each experiment is repeated a large number of times to approximate theoretical quantities.
+- Statistical tests are performed under standard assumptions such as independence and normality.
+- Results are summarized using numerical estimates and visualizations.
+- Findings are interpreted in the context of statistical theory.
+
+---
+
+## Tools and Libraries
+
+- Python  
+- NumPy  
+- SciPy  
+- Matplotlib  
+- Jupyter Notebook  
+
+---
+
+## Reproducibility
+
+- A fixed random seed is used where appropriate to ensure reproducibility.
+- All simulations, figures, and results can be regenerated by running the notebook from top to bottom.
+- No external datasets are required.
+
+---
+
+## Assessment Problems
+
+Follow the [assessment instructions](assessment.md) and the guidance provided in
+[guidance.ipynb] to ensure the problems are addressed correctly.
+
+### Problem 1: Extending the Lady Tasting Tea
+
+The original Lady Tasting Tea experiment consists of 8 cups:  
+4 tea-first and 4 milk-first.
+
+In this extension, 12 cups are prepared:  
+8 tea-first and 4 milk-first.
+
+A participant claims they can identify which liquid was poured first.
+
+The task is to simulate this experiment using `numpy` by randomly shuffling the cups many times
+and estimating the probability that the participant correctly identifies all cups by chance.
+The estimated probability is then compared with the probability from the original 8-cup design.
+
+The notebook includes:
+- A clear explanation of the simulation procedure
+- The estimated probability and its interpretation
+- A discussion on whether the p-value threshold should be extended or relaxed compared
+  to the original experiment
+
+---
+
+### Problem 2: Normal Distribution
+
+A total of 100,000 samples of size 10 are generated from the standard normal distribution.
+
+For each sample:
+- The standard deviation is computed using `ddof=1` (sample standard deviation)
+- The standard deviation is computed using `ddof=0` (population standard deviation)
+
+Histograms of both sets of values are plotted on the same axes with transparency.
+
+The analysis includes:
+- A description of the observed differences between the two distributions
+- An explanation of how these differences are expected to change as sample size increases
+
+---
+
+### Problem 3: t-Tests and Type II Error
+
+A type II error occurs when the null hypothesis is not rejected even though it is false.
+
+For each mean difference  
+\( d = 0, 0.1, 0.2, \dots, 1.0 \),  
+the following simulation is repeated 1,000 times:
+
+1. Two samples of size 100 are drawn:
+   - One from a standard normal distribution
+   - One from a normal distribution with mean \( d \) and standard deviation 1
+2. An independent samples t-test is performed
+3. The null hypothesis is rejected if the p-value is less than 0.05
+4. The proportion of times the null hypothesis is not rejected is recorded
+
+The results are visualized by plotting the type II error rate against the mean difference \( d \),
+followed by an interpretation of how statistical power changes as the effect size increases.
+
+---
+
+### Problem 4: ANOVA
+
+Three independent samples of size 30 are generated from normal distributions with:
+- Means: 0, 0.5, and 1
+- Standard deviation: 1
+
+The analysis consists of:
+1. A one-way ANOVA to test whether all group means are equal
+2. Three independent two-sample t-tests:
+   - Sample 1 vs Sample 2
+   - Sample 1 vs Sample 3
+   - Sample 2 vs Sample 3
+3. A comparison of conclusions obtained from ANOVA and multiple t-tests
+
+A short discussion explains why ANOVA is preferred over performing several pairwise t-tests.
+
+---
+
+## Interpretation and Discussion
+
+Each problem includes a written interpretation connecting simulation outcomes
+to statistical theory. Emphasis is placed on understanding p-values, estimator behavior,
+error rates, and the consequences of multiple testing.
+
+---
+
+## Limitations
+
+- Simulations assume normally distributed data.
+- Results depend on the chosen sample sizes and number of repetitions.
+- Real-world data may violate model assumptions, which can affect inference.
+
+---
+
+## Project Structure
+
+- `assessment.md` – Problem descriptions and instructions  
+- `guidance.ipynb` – Supporting guidance and examples  
+- `analysis.ipynb` – Main simulation, analysis, and interpretation notebook  
+
+---
+
+## References
+
+The theoretical background and statistical methods used in this project are based on
+established literature in experimental design, statistical inference, and simulation.
+
+1. Fisher, R. A. (1935). *The Design of Experiments*. Oliver & Boyd.  
+   — Original presentation of the Lady Tasting Tea experiment and foundational ideas
+   in hypothesis testing.
+
+2. Casella, G., & Berger, R. L. (2002). *Statistical Inference* (2nd ed.). Duxbury Press.  
+   — Comprehensive reference on statistical theory, estimation, and hypothesis testing.
+
+3. Montgomery, D. C. (2019). *Design and Analysis of Experiments* (9th ed.). Wiley.  
+   — Detailed treatment of experimental design, ANOVA, and multiple comparison issues.
+
+4. Wasserman, L. (2004). *All of Statistics: A Concise Course in Statistical Inference*. Springer.  
+   — Accessible overview of modern statistical inference concepts.
+
+5. Efron, B., & Tibshirani, R. J. (1993). *An Introduction to the Bootstrap*. Chapman & Hall.  
+   — Foundational text on resampling and simulation-based methods.
+
+6. Virtanen, P., et al. (2020). SciPy 1.0: Fundamental algorithms for scientific computing in Python.  
+   *Nature Methods*, 17, 261–272.
+
+7. Harris, C. R., et al. (2020). Array programming with NumPy.  
+   *Nature*, 585, 357–362.
+
+---
 
 ## Author
 
-**Carlos Rigueti**:  I am currently studying a **Higher Diploma in Science in Data Analytics** at **Atlantic Technological University**. For more information or questions, feel free to contact me on GitHub or connect with me on **[LinkedIn](https://www.linkedin.com/in/carlos-rigueti-b6323926/)**.
+**Carlos Rigueti**  
+Higher Diploma in Science in Data Analytics  
+Atlantic Technological University  
 
-
-
-
+Connect with me on **[LinkedIn](https://www.linkedin.com/in/carlos-rigueti-b6323926/)**
