@@ -55,10 +55,7 @@ Generate multiple independent sample sets with varying means.
 
 ## Author
 
-**Carlos Rigueti**  
-I am currently studying a **Higher Diploma in Science in Data Analytics** at **Atlantic Technological University**.
-
-For more information or questions, feel free to contact me on GitHub or connect with me on **[LinkedIn](https://www.linkedin.com/in/carlos-rigueti-b6323926/)**.
+**Carlos Rigueti**:  I am currently studying a **Higher Diploma in Science in Data Analytics** at **Atlantic Technological University**.For more information or questions, feel free to contact me on GitHub or connect with me on **[LinkedIn](https://www.linkedin.com/in/carlos-rigueti-b6323926/)**.
 
 
 
