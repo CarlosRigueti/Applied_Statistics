@@ -1,8 +1,6 @@
 # Higher Diploma in Science - Data Analytics  
 ## Applied Statistics - Assessment  
 
-# Applied Statistics – Assessment Project  
-**Higher Diploma in Science in Data Analytics**
 
 ![Applied Statistics Image](https://github.com/user-attachments/assets/4baac4f5-a455-4deb-9dcb-9eabbbb8e200)
 
