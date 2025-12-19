@@ -19,7 +19,7 @@ The project demonstrates the practical application of statistical concepts throu
 For additional guidance on Markdown syntax, see GitHub’s
 [Basic Writing and Formatting Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
----
+___
 
 ## Purpose of the Assessment
 
